@@ -35,7 +35,7 @@ function draw() {
 }
 
 function drawPoint() {
-	pointsData.push({x: mouseX, y: mouseY:});
+	pointsData.push({x: mouseX, y: mouseY});
 }
 
 $("#saveDrawing").on("click", saveDrawing);
