@@ -50,3 +50,7 @@ function clearDrawing() {
 	pointsData.remove();
 	points = [];
 }
+
+ pointsData.on('child_removed', function () {
+    points = [];
+  })
